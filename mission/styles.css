@@ -1,0 +1,75 @@
+/* Reset and Body Setup */
+body {
+    margin: 0;
+    padding: 50px 20px;
+    font-family: "Times New Roman", Times, serif; /* Matches the formal serif look */
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    justify-content: center; /* Centers the main box on the screen */
+}
+
+/* Main Container */
+.content-box {
+    max-width: 650px; /* Restricts width to match the document feel */
+    width: 100%;
+}
+
+/* Heading 1: MISSION STATEMENT */
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal; /* Keeps it from being too bold */
+    letter-spacing: 2px;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* Heading 2: BYU-IDAHO */
+.sub-heading {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Helvetica, Arial, sans-serif; /* Sans-serif contrast */
+    color: #3e75a8; /* Muted academic blue */
+    font-size: 0.85rem;
+    letter-spacing: 3px; /* Widens the text spacing */
+    margin-top: 0;
+    border-bottom: 1px solid #ccc; /* The thin line under the subtitle */
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+/* Paragraph styling */
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 1.05rem;
+}
+
+/* Italic text */
+.italic-intro {
+    font-style: italic;
+    margin-top: 30px;
+}
+
+/* Ordered List Styling */
+ol {
+    padding-left: 20px; /* Indents the list */
+    margin-bottom: 50px;
+}
+
+li {
+    margin-bottom: 20px; /* Adds space between list items */
+    line-height: 1.5;
+    padding-left: 10px; /* Space between number and text */
+}
+
+/* Logo styling */
+footer {
+    text-align: center;
+}
+
+footer img {
+    width: 150px; /* Adjust size to match reference */
+    height: auto;
+}
