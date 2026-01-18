@@ -7,12 +7,17 @@ body {
     color: #000;
     display: flex;
     justify-content: center; /* Centers the main box on the screen */
+    box-sizing: border-box;
 }
 
 /* Main Container */
 .content-box {
     max-width: 650px; /* Restricts width to match the document feel */
     width: 100%;
+    border: 1px solid #ccc;
+    padding: 60px 100px;
+    margin: 40px auto;
+    background-color: #fff;
 }
 
 /* Heading 1: MISSION STATEMENT */
@@ -22,6 +27,7 @@ h1 {
     font-weight: normal; /* Keeps it from being too bold */
     letter-spacing: 2px;
     font-size: 2rem;
+    padding-bottom: 10px;
     margin-bottom: 10px;
 }
 
@@ -35,8 +41,9 @@ h1 {
     letter-spacing: 3px; /* Widens the text spacing */
     margin-top: 0;
     border-bottom: 1px solid #ccc; /* The thin line under the subtitle */
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     margin-bottom: 30px;
+    display: block;
 }
 
 /* Paragraph styling */
@@ -54,8 +61,9 @@ p {
 
 /* Ordered List Styling */
 ol {
-    padding-left: 20px; /* Indents the list */
+    padding-left: 1.2rem; /* Indents the list */
     margin-bottom: 50px;
+    text-align: left;
 }
 
 li {
