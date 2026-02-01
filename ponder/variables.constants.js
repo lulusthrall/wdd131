@@ -1,7 +1,8 @@
-const PI = 3.14;
-let radius = 3;
-
-let area = radius * radius * PI;
+let selectElem = document.getElementById('webdevlist');
+selectElem.addEventListener('change', function(){
+    let codeValue = selectElem.value;
+    console.log(codeValue);
+})
 
 console.log(area);
 

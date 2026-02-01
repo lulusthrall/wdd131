@@ -35,3 +35,8 @@ img {
 .list {
     list-style-type: none;
 }
+
+.background {
+    background-color: #000;
+    color: white;
+}
