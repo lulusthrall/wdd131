@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 20px; 
+    display: block; 
+}
+
+#checkoutForm {
+    width: 600px;
+    margin-top: 40px;
+}
+
+.card-wrapper {
+    position: relative;
+    height: 300px; 
+    width: 100%;
+}
+
+.card-container {
+    position: absolute;
+    width: 400px; 
+    height: 230px; 
+    border-radius: 12px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+.front {
+    background-color: #cccccc;
+    z-index: 2; 
+    top: 0;
+    left: 0;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr; 
+    gap: 10px;
+}
+
+.back {
+    background-color: #e0e0e0;
+    z-index: 1; 
+    top: 40px;  
+    left: 120px; 
+    overflow: hidden;
+}
+
+.black-stripe {
+    background: #000;
+    height: 45px;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.cvv-group {
+    margin-top: 70px;
+    margin-left: 300px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.cvv-group input {
+    width: 50px;
+    padding: 6px;
+}
+
+.card-total { grid-column: 1; font-weight: bold; }
+.card-logo { grid-column: 2; justify-self: end; font-size: 2rem; }
+
+#cardNumber-group { grid-column: 1; } 
+
+#cardName-group { grid-column: 1; }
+
+#cardExpiration { grid-column: 2; align-self: end; }
+
+.field-group { display: flex; flex-direction: column; }
+label { font-size: 0.7rem; font-weight: bold; margin-bottom: 3px; }
+input { padding: 8px; border: 1px solid #999; border-radius: 4px; width: 100%; box-sizing: border-box; }
+
+.exp-inputs { display: flex; gap: 5px; }
+.exp-inputs input { width: 45px; }
+
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 520px; 
+    margin-top: 20px;
+}
+
+#submitButton {
+    padding: 10px 40px;
+    background-color: #f0f0f0;
+    border: 1px solid #333;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
+}
+
+.errors {
+    grid-column: span 2;
+    color: red;
+    font-size: 0.8rem;
+}
