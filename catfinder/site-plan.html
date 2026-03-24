@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Plan - Cat Breed Finder</title>
+    <link rel="stylesheet" href="styles/site-plan.css">
+</head>
+<body>
+    <header>
+        <h1>Cat Breed Finder Site Plan</h1>
+        <h2>Kyle - WDD131</h2>
+    </header>
+    <main>
+        <hr>
+        <h2>Purpose</h2>
+        <p>The purpose of this site is to help potential cat owners find a breed that matches their specific lifestyle and home environment. It provides essential data on temperament, health risks, and grooming requirements to ensure a responsible match between owner and pet.</p>
+
+        <h2>Target Audience</h2>
+        <p>The intended audience includes individuals and families who are researching cat breeds and need detailed, organized information to make an informed decision before adopting.</p>
+
+        <hr>
+        <h2>Description of Dynamic Elements</h2>
+        <p>JavaScript will power the search and filter functionality of the site. I will store cat breed data in an <strong>Array of Objects</strong>. Users will select traits like "Fluffy" or "Calm" from a dropdown menu. JavaScript will use the <strong>.filter()</strong> method to find matching breeds and the <strong>.forEach()</strong> method to build and display result cards in the DOM. I will use <strong>conditional branching</strong> to display specific health warnings or "Kid Friendly" badges based on the breed data attributes.</p>
+
+        <hr>
+        <h2>Logo</h2>
+        <p></p>
+        <img src="images/cbf-logo.png" alt="Cat Breed Finder Logo Placeholder" width="100">
+
+        <hr>
+        <h2>Colors and Fonts</h2>
+        <h3>Color Palette</h3>
+        <table class="colors">
+            <tr>
+                <th>Primary</th>
+                <th>Secondary</th>
+                <th>Accent</th>
+            </tr>
+            <tr>
+                <td style="background-color: #0056b3; color: white;">#0056b3</td>
+                <td style="background-color: #f8f9fa; color: black;">#f8f9fa</td>
+                <td style="background-color: #343a40; color: white;">#343a40</td>
+            </tr>
+        </table>
+
+        <h3>Fonts</h3>
+        <p>System Sans-Serif (Arial, Helvetica, sans-serif). These fonts are highly readable and load instantly to maximize performance scores.</p>
+
+        <hr>
+        <h2>Content</h2>
+        <h3>Main Headline</h3>
+        <p>Find Your Perfect Feline Companion.</p>
+        <h3>Data Examples</h3>
+        <ul>
+            <li><strong>Maine Coon:</strong> Large, fluffy, friendly, good with kids. Health: Prone to hypertrophic cardiomyopathy. Requires interactive play.</li>
+            <li><strong>Siamese:</strong> Short hair, vocal, energetic, prefers company. Health: Prone to progressive retinal atrophy. Very social.</li>
+        </ul>
+
+        <hr>
+        <h2>Wireframe</h2>
+        <h3>Mobile View</h3>
+        <p>Single column layout. Header at the top, followed by a filter dropdown, and a vertical list of breed cards.</p>
+        <h3>Desktop View</h3>
+        <p>Standard header. A sidebar on the left for filters and a multi-column grid of cat breed cards on the right.</p>
+        <img src="images/wireframe.png" alt="Site Wireframe Placeholder" width="300">
+    </main>
+    <footer>
+        <p>&copy; 2026 Cat Breed Finder Site Plan</p>
+    </footer>
+</body>
+</html>
