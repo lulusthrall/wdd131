@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Breed Finder - Final Project</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-stuff">
+            <div class="logo-area">
+                <div class="img-border">
+                    <img src="images/cbf-logo.png" alt="logo" class="logo-image">
+                </div>
+                <span class="logo-text">Cat Breed Finder</span>
+            </div>
+
+            <div class="header-title">
+                <h1 class = "bold-header-title">Fine Your Perfect Feline Companion</h1>
+            </div>
+            <nav class="desktop-nav">
+                <div class="nav-links">
+                    <a href="#">Home</a>
+                    <a href="#">Navigation</a>
+                    <a href="#">Breeders</a>
+                    <a href="#">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-layout">
+        <div class="title-container">
+            <h1 class="page-title"></h1>
+        </div>
+        
+        <aside class="filter-sidebar">
+            <div class="filter-box">
+                <label for="filter-select">Trait Filter</label>
+                <select id="filter-select">
+                    <option value="all">Show All</option>
+                    <option value="Calm">Calm</option>
+                    <option value="Active">Active</option>
+                    <option value="Fluffy">Fluffy Coat</option>
+                    <option value="Short Hair">Short Hair</option>
+                </select>
+            </div>
+            <div class="extra-filters">
+                <p><input type="checkbox"> Fluffy</p>
+                <p><input type="checkbox"> Calm</p>
+                <p><input type="checkbox"> Energetic</p>
+            </div>
+        </aside>
+
+        <div id="results-container">
+            </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-inner">
+            <p>&copy; 2026 Cat Breed Finder Site Plan</p>
+        </div>
+    </footer>
+
+    <script src="project.js"></script>
+</body>
+</html>
